@@ -1,0 +1,7 @@
+{
+    "model_name": "freshness_resnet18",
+    "hidden_units": 128,
+    "num_classes": 2,
+    "epochs": 10,
+    "input_size": 224
+}

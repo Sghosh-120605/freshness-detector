@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Prediction Result</title>
+</head>
+<body style="text-align:center; font-family:sans-serif;">
+  <h2>Prediction Result</h2>
+  <p><b>Confidence:</b> {{ confidence }}</p>
+  <p><b>Days Remaining:</b> {{ days_remaining }}</p>
+  <img src="{{ url_for('static', filename=result_image.split('static/')[-1]) }}" width="300">
+  <br><br>
+  <a href="/">Upload Another</a>
+</body>
+</html>
