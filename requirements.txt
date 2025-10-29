@@ -1,7 +1,38 @@
-flask
-torch
-torchvision
-ultralytics
-opencv-python
-pillow
-numpy
+# ------------------------------------
+# Core Deep Learning (CUDA 12.6 Build)
+# ------------------------------------
+--index-url https://download.pytorch.org/whl/cu126
+torch>=2.8.0
+torchvision>=0.23.0
+
+# ------------------------------------
+# Computer Vision + Object Detection
+# ------------------------------------
+ultralytics>=8.3.222
+opencv-python>=4.6.0
+Pillow>=9.0.0
+numpy>=1.23.0
+scipy>=1.9.0
+matplotlib>=3.3.0
+polars>=1.34.0
+pyyaml>=5.3.1
+
+# ------------------------------------
+# OCR (Text Detection/Recognition)
+# ------------------------------------
+pytesseract>=0.3.10
+easyocr>=1.7.1
+
+# ------------------------------------
+# Utilities + Web App (Optional)
+# ------------------------------------
+flask>=2.3.0
+requests>=2.23.0
+psutil>=5.9.0
+typing-extensions>=4.10.0
+
+# ------------------------------------
+# Development + Debugging (Optional)
+# ------------------------------------
+jupyter
+notebook
