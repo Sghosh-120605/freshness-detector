@@ -5,9 +5,10 @@
 </head>
 <body style="text-align:center; font-family:sans-serif;">
   <h2>Prediction Result</h2>
-  <p><b>Confidence:</b> {{ confidence }}</p>
-  <p><b>Days Remaining:</b> {{ days_remaining }}</p>
-  <img src="{{ url_for('static', filename=result_image.split('static/')[-1]) }}" width="300">
+  <p><b>Fruit:</b> {{ fruit }}</p>
+  <p><b>Confidence:</b> {{ confidence }}%</p>
+  <p><b>Use Within:</b> {{ use_within }}</p>
+  <img src="{{ result_image }}" alt="Result Image" width="300">
   <br><br>
   <a href="/">Upload Another</a>
 </body>
